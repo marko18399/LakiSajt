@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kontakt</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="../Web sajt/slike/logo.jpg" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' media='screen' href='../Web sajt/css/kontakt.css' >
+    <script src='../Web sajt/skripte/kontakt.js'></script>
+</head>
+<body>    
+    <nav class="main-nav">
+        <ul>
+            <a href="pocetna.html"><img src="../Web sajt/slike/logo.jpg"></a>  
+           <li><a href="pocetna.html">Početna</a></li> 
+           <li> <a href="onama.html">O nama</a></li>
+           <li> <a href="prodaja.html">Prodaja</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <img src="../Web sajt/slike/facebook.png" id="facebook" onclick="klik()">
+        </ul>
+    </nav>
+    <div id="wrap">  
+        <div id="kontakt">
+            <h2>Kontakt</h2>
+           <p><img src="https://i.pinimg.com/originals/30/98/49/309849c5815761081926477e5e872f1e.png">  Venijamina Marinkovića 37 (32250 Ivanjica, Srbija)</p>
+          <p><img src="https://i.pinimg.com/originals/01/fe/a7/01fea7d3e47679b68389e892a376aa2c.png">   +381 32 664 731</p>
+          <p><img src="https://www.logolynx.com/images/logolynx/93/93c36067c618ea27d2af89ed0b503bc5.png">   +381 32 664 731</p>
+            <ul>
+                <label>E-mail</label>
+                <li>Sedište : office@hemag.rs</li>
+                <li>Štamparija : stamparija@hemag.rs</li>
+                <li>Veleprodaja : hemag.vp2@gmail.com </li>
+            </ul>
+            <div id="mapa">
+            <a href="https://www.google.rs/maps/place/Hemag+Ivanjica/@43.5758613,20.2325629,17z/data=!3m1!4b1!4m5!3m4!1s0x4757bd7853436301:0xd753bf7a0c767534!8m2!3d43.5758574!4d20.2347516">
+            <img src="../Web sajt/slike/mapa.jpg" alt="Hemag doo - Ivanjica" title="Hemag doo - Ivanjica">
+         </a>
+         </div>
+         <form name="forma" onsubmit="return myFunction()" method="POST" class="forma">
+             <p>Vaše ime i prezime</p>  
+                <input type="text" value="" required  id="ime" name="ime" placeholder="Ime i prezime">
+                <p>Vaš e-mail</p>
+                <input type="text" id="mejl" value="" name="mejl" required placeholder="E-mail">
+               <p>Vaša poruka</p>
+               <textarea name="textArea" cols="80" rows="4" value="" required id="poruka" placeholder="Poruka"></textarea>
+                <br><br>
+                <input class="dugme" type="submit" value="Pošalji">
+            </form>
+            </div> 
+    </div>
+    <br>
+    <div class="footer">
+        Hemag doo © | Venijamina Marinkovića 37 (Ivanjica, Srbija) | Telefon : +381 32 664 731
+    </div>
+</body>
+</html>

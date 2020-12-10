@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    padding-left: 15%;
+    display: flex;
+    background: whitesmoke;
+    color: white;
+    width: 100%;
+    height: 4em;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0;
+}
+.main-nav>ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.main-nav>ul>li{
+    margin: 0;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.main-nav>ul>li:hover{
+    background-color:peachpuff;
+}
+.main-nav>ul>a>img {
+    width: 100px;
+    margin: 50px;
+}
+a{
+    text-decoration: none;
+    padding: 35px 25px;
+    color :orange;
+    font-size: 20px;
+}
+#facebook {
+    margin-left: 15vh;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+body{
+    background: url(../slike/onama.png) no-repeat;
+    background-size: cover;
+}
+#wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110vh;
+}
+p{
+    word-spacing: 5px;
+    margin: auto;
+    padding: 2vh;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    margin-right: 10vh;
+    margin-left: 5vh;
+
+}
+#uvod {
+    display: flex; 
+    margin-top: 20vh;
+    margin-left: 5vh;
+    height: 20vh;
+}
+#magacin{
+    width: 400px;
+    height: 200px;
+    margin-top: 4vh;
+    margin-left: 5vh;
+}
+#slika1{
+    width: 400px;
+    height: 200px;
+    margin-right: 10vh;
+    margin-top: 2vh;
+}
+#slika2>img{
+    width: 70vh;
+    height: 40vh;
+    margin-top: 10vh;
+    margin-left: 12vh;
+}
+#veleprodaja {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.4rem;
+    justify-content: right;
+    word-spacing: 5px;
+    margin: 2vh;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    margin-top: 9vh;
+    margin-left: 4vh;
+}
+#slika2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    color: rgb(255, 115, 0);
+    background-color: whitesmoke;
+    word-spacing: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
